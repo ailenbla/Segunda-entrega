@@ -1,0 +1,216 @@
+.primeraOpcion {
+    color: black;
+}
+.segundaOpcion {
+    font-size: 50px;
+}
+
+.usoDisplay {
+    display: inline;
+}
+
+.contenedor {
+    border: 2px black solid;
+}
+
+.contenedor {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.contenedorUno {
+    border: 2px black solid;
+    /*margin-right: 1100px;*/
+    padding: 20px;
+}
+
+.opcionProductos {
+    color: coral;
+    font-size: 20px; 
+    border: 1px solid coral;
+
+}
+
+.envioGratis {
+    border: 2px black dotted;
+    padding: 10px;
+    margin: 20px;
+}
+
+.tresCuotas {
+    border: 2px black dotted;
+    padding: 10px;
+    margin: 20px;
+}
+
+.enEfectivo {
+    border: 2px black dotted;
+    padding: 10px;
+    margin: 20px;
+}
+
+.colorFondo {
+    background-color: bisque;
+}
+
+
+/* header {
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+
+} */
+
+
+
+
+
+.padreFlex {
+   
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.hijoFlex {
+    background-color: burlywood;
+    height: 150px;
+    width: 150px;
+    border: 1px black solid;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+/*order*/
+
+.primero {
+    order: 1;
+}
+
+.segundo {
+    order: 2;
+}
+
+.tercero {
+    order: 3;
+}
+
+
+/*preguntas frecuentes*/
+
+.pregunta {
+    background-color: chocolate ;
+    grid-area: preguntaUno;
+}
+
+.respuesta {
+    background-color: rgb(235, 92, 92);
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+/*grid*/
+
+header {
+    background-color: burlywood;
+    grid-area: header;
+}
+
+nav {
+    background-color: rgb(246, 181, 117);
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+    
+}
+
+footer {
+    background-color: rgb(36, 71, 47);
+    color: antiquewhite;
+    grid-area: footer;
+}
+
+/*ESCRITORIO*/
+
+@media (min-widht: 1024px) {
+    .gridPadreEsc {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "footer";
+        gap: 20px;
+    }
+}
+
+
+
+/*Animaciones, transformaciones y transiciones*/
+
+.primero {
+    background: linear-gradient(to top, #e96443, #6b807c );
+}
+
+.segundo {
+    background-image: radial-gradient(#e96443, #6b807c);
+}
+
+.tercero {
+    background: linear-gradient(to top, #6b807c, #e96443) ;
+}
+
+.botonEnviar:hover {
+    height: 25px;
+    width: 100px;
+    transition: all 2s;
+}
+
+.botonReestablecer:hover {
+    height: 25px;
+    width: 100px;
+    transition: all 2s;
+}
+
+.imgAnimacion:hover {
+    height: 300px;
+    width: 300px;
+    transition: all 2s;
+
+}
+
+.botonAnimacion:hover {
+    height: 25px;
+    width: 125px;
+    transition: all 2s;
+}
+
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+h1 {
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
