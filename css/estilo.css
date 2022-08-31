@@ -51,7 +51,7 @@
 }
 
 .colorFondo {
-    background-color: bisque;
+    background-color: #faf1ef;
 }
 
 
@@ -104,12 +104,12 @@
 /*preguntas frecuentes*/
 
 .pregunta {
-    background-color: chocolate ;
+    background-color: #8ccfa8 ;
     grid-area: preguntaUno;
 }
 
 .respuesta {
-    background-color: rgb(235, 92, 92);
+    background-color: #6fc392;
 }
 
 /* *{
@@ -160,15 +160,15 @@ footer {
 /*Animaciones, transformaciones y transiciones*/
 
 .primero {
-    background: linear-gradient(to top, #e96443, #6b807c );
+    background: linear-gradient(to top, #efd0ca, #e3aca1 );
 }
 
 .segundo {
-    background-image: radial-gradient(#e96443, #6b807c);
+    background-image: radial-gradient(#e3aca1, #efd0ca);
 }
 
 .tercero {
-    background: linear-gradient(to top, #6b807c, #e96443) ;
+    background: linear-gradient(to top, #e3aca1, #efd0ca) ;
 }
 
 .botonEnviar:hover {
