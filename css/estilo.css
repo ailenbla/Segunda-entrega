@@ -214,3 +214,9 @@ h1 {
     animation-iteration-count: infinite;
 }
 
+/*NOSOTROS*/
+
+.colorNosotros{
+    color: #48704f;
+    background-color: #74c69d;
+}
